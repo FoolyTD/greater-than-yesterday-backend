@@ -8,8 +8,8 @@ and all defined routes are located in individual folders.
 
 # API endpoints
 
-1. GET "/users/:user_id/tasks"
-- returns all tasks for that user
+1. GET "/tasks"
+- returns all tasks
 2. POST "/tasks"
 - adds new task to database
 3. DELETE "tasks/:task_id"
