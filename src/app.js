@@ -2,7 +2,7 @@ console.log("hello");
 // Require the Express package and assign it to the variable "express".
 const express = require("express");
 console.log("hello")
-const cors = require("cors");
+// const cors = require("cors");
 
 
 /* The Express package exports a function. When you invoke that function, 
@@ -12,7 +12,7 @@ console.log("jello");
 
 const tasksRouter = require("./tasks/tasks.router");
 
-app.use(cors());
+// app.use(cors());
 
 app.use(express.json());
 console.log("hello");
