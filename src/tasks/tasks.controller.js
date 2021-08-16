@@ -1,4 +1,4 @@
-const service = require("./tasks.service");
+const service = require("./tasks.service").default;
 
 const hasProperties = require("../errors/hasProperties");
 

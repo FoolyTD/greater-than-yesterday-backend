@@ -1,4 +1,4 @@
-const knex = require("../db/connection");
+import knex from "../db/connection";
 
 function list() {
     return knex("tasks").select("*");
@@ -20,7 +20,7 @@ function destroy(task_id) {
     return knex("tasks").where({ task_id }).del();
 }
 
-module.exports = {
+export default {
   create,
   delete: destroy,
   read,
